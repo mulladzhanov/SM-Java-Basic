@@ -10,7 +10,7 @@ public class CalculatorTest {
 		calc.sub(300,150);
 		
 		calc.sub(87, 32);
-		calc.add(200);
+		calc.add(200,200);
 		
 		
 		
