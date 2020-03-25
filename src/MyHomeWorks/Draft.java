@@ -6,9 +6,28 @@ public class Draft {
 	
 	public static void main(String[] args) {
 		
-	
-		String name="Timmy";
+	    Scanner inp = new Scanner(System.in);
+	    System.out.print("In:");
+	    String givenString = inp.nextLine();
+	   	//write your code below
 	    
-	    System.out.println(name.length());
+	   
+	   	
+	   	String p="";
+	   	
+	   	for (int i=givenString.length()-1; i>=0; i--) {
+	   	  
+	   	  p+=givenString.charAt(i);
+	   	  
+	   	 	}  boolean a=false;
+	   	  
+	   	  if (p.replaceAll(" ","").equalsIgnoreCase(givenString.replaceAll(" ",""))) {
+	   	    a=true;
+	   	  } else {
+	   	    a=false;
+	   	  }
+	   	 
+	    System.out.println(a);
+	
 	}
-}
+	}

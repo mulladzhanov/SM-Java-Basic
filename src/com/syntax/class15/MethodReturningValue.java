@@ -28,26 +28,29 @@ public class MethodReturningValue {
 		
 		
 		MethodReturningValue newObj=new MethodReturningValue();
-		int num=newObj.largest(13,12);
+		int num=newObj.larg(56,112);
+		
+		System.out.println("The largest is "+num);
 		
 	}
 	
-	int largest(int a, int b) {
+	int larg(int a, int b) {
 			int largest;
 			
 			if (a>b) {
 				largest=a;
 				
-			System.out.println("The largest is "+largest);	
+			//System.out.println("The largest is "+largest);	
 			
 			} else {
 				largest=b;	
 				
-		    System.out.println("The largest is "+largest);	
+		   	
 			
 			} return largest;
 			
-					
+			
+								
 		} 
 	
 		
