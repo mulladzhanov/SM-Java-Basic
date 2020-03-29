@@ -27,6 +27,9 @@ public class RecapStaticKeyword {
 	
 	public static void main(String[] args) {
 		
+		brand="iPhone";
+		touchscreen=true;
+		
 		
 		// accessing instance variables through the instance of the class
 		
@@ -41,8 +44,7 @@ public class RecapStaticKeyword {
 		obj.displayGeneralInfo(); // Valid but not preferable 
 		
 
-		brand="iPhone";
-		touchscreen=true;
+		
 	}
 	
 
